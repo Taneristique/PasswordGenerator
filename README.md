@@ -8,5 +8,5 @@ KECCAK256
 # REQUİREMENTS
 QT CREATOR 6.0.2
 
-#SCREENSHOT OF APPLICATION
+# SCREENSHOT OF APPLICATION
 ![appimage](https://user-images.githubusercontent.com/48108872/159167008-9cf40bba-47e4-49b0-9af9-9b8ee21d2d92.png)
