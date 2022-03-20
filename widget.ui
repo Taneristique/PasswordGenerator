@@ -25,9 +25,9 @@
      <colorrole role="Button">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>240</red>
-        <green>240</green>
-        <blue>240</blue>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
        </color>
       </brush>
      </colorrole>
@@ -167,7 +167,7 @@
       </brush>
      </colorrole>
      <colorrole role="NoRole">
-      <brush brushstyle="NoBrush">
+      <brush brushstyle="SolidPattern">
        <color alpha="255">
         <red>0</red>
         <green>0</green>
@@ -407,9 +407,9 @@
      <colorrole role="Button">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>240</red>
-        <green>240</green>
-        <blue>240</blue>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
        </color>
       </brush>
      </colorrole>
@@ -636,7 +636,6 @@
      </property>
      <property name="font">
       <font>
-       <family>Lucida Fax</family>
        <pointsize>28</pointsize>
        <bold>false</bold>
       </font>
@@ -650,7 +649,6 @@
     <widget class="QLabel" name="label_3">
      <property name="font">
       <font>
-       <family>Lucida Handwriting</family>
        <pointsize>12</pointsize>
       </font>
      </property>
@@ -681,6 +679,9 @@ p, li { white-space: pre-wrap; }
       <string>GENERATE</string>
      </property>
     </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEdit"/>
    </item>
    <item>
     <widget class="QLabel" name="label_2">
@@ -1103,7 +1104,7 @@ p, li { white-space: pre-wrap; }
       <set>Qt::ImhHiddenText</set>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt; HASHED OUTPUT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="textInteractionFlags">
       <set>Qt::LinksAccessibleByMouse|Qt::TextEditable</set>
