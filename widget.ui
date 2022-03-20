@@ -588,7 +588,11 @@
    </palette>
   </property>
   <property name="windowTitle">
-   <string>Widget</string>
+   <string>PASSWORD GENERATOR</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Desktop/48108872.jpg</normaloff>../../Desktop/48108872.jpg</iconset>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
